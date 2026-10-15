@@ -1,0 +1,19 @@
+[build]
+  publish = "outputs/hub-base"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/controle/"
+  to = "/controle.html"
+  status = 200
+
+[[redirects]]
+  from = "/controle"
+  to = "/controle.html"
+  status = 301
