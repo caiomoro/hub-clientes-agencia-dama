@@ -14,7 +14,7 @@ window.CLIENT_CONFIG={
     {icon:'⌗',title:'DIAGNÓSTICO · RA.GYM',description:'Diagnóstico de maturidade digital.',url:'https://docs.google.com/spreadsheets/d/1HXV4rgqacgk058YV4f8lh-JigxRy2L0Hcx13yjb6dZI/edit?usp=sharing'},
     {icon:'◌',title:'GRAVAÇÃO DO DIAGNÓSTICO',description:'Disponível após a reunião. Em breve',disabled:true},
     {icon:'▤',title:'PASTA DE VÍDEOS · DRIVE',description:'Vídeos e fotos para as campanhas.',url:'https://drive.google.com/drive/u/0/folders/1IPZXjwaEqPAGwtCQ5yWF5NxPgQaQo7do'},
-    {icon:'▰',title:'APRESENTAÇÃO INICIAL',description:'Marketing, A.I.A. e processo comercial.',url:'apresentacao/'}
+    {icon:'▰',title:'APRESENTAÇÃO INICIAL',description:'Marketing, A.I.A. e processo comercial.',url:'/gurismart/apresentacao/'}
   ],
   location:{name:'Guri Smart · Garibaldi',address:'Avenida Rio Branco, 63, Sala 109, Galeria Milani, Centro, Garibaldi - RS',hours:'Segunda a sexta: 8h30 às 12h e 13h30 às 18h30. Sábado: 9h às 11h45.',whatsapp:'https://www.instagram.com/gurismart.oficial/'}
 };
