@@ -10,8 +10,8 @@ window.CLIENT_CONFIG={
     {icon:'▦',title:'LINHA EDITORIAL · OUTUBRO',description:'31 pautas com Feed/Reels e Stories.',url:'linha-editorial.html'},
     {icon:'⌗',title:'DIAGNÓSTICO · RA.GYM',description:'Diagnóstico de maturidade digital.',url:'https://docs.google.com/spreadsheets/d/1HXV4rgqacgk058YV4f8lh-JigxRy2L0Hcx13yjb6dZI/edit?usp=sharing'},
     {icon:'◌',title:'GRAVAÇÃO DO DIAGNÓSTICO',description:'Disponível após a reunião. Em breve',disabled:true},
-    {icon:'▤',title:'PASTA DE VÍDEOS · DRIVE',description:'Vídeos e fotos para as campanhas.',url:'https://drive.google.com/'},
-    {icon:'▰',title:'APRESENTAÇÃO INICIAL',description:'Marketing, A.I.A. e processo comercial.',url:'https://10complicado-cliente-ra-academia-marketing-education.netlify.app/apresentacao/'}
+    {icon:'▤',title:'PASTA DE VÍDEOS · DRIVE',description:'Vídeos e fotos para as campanhas.',url:'https://drive.google.com/drive/u/0/folders/1IPZXjwaEqPAGwtCQ5yWF5NxPgQaQo7do'},
+    {icon:'▰',title:'APRESENTAÇÃO INICIAL',description:'Marketing, A.I.A. e processo comercial.',url:'apresentacao/'}
   ],
   location:{name:'RA.Gym · Residência Atlética',address:'Rua Irmão Nicolau, 41, Toledo - PR',hours:'Segunda a sexta: 6h às 22h. Sábado: 8h às 12h.',whatsapp:'https://wa.me/message/JZMSRBGQTVXZB1'}
 };
