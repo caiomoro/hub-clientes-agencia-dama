@@ -1,6 +1,7 @@
 // Duplique esta pasta para um novo cliente e altere apenas este arquivo.
 window.CLIENT_CONFIG={
-  brand:{name:'RA.Gym',eyebrow:'RESIDÊNCIA ATLÉTICA',tagline:'Marketing e vendas em um só lugar.',logo:'https://10complicado-cliente-ra-academia-marketing-education.netlify.app/assets/logo.png'},
+  brand:{name:'RA.Gym',eyebrow:'RESIDÊNCIA ATLÉTICA',tagline:'Marketing e vendas em um só lugar.',logo:'assets/dama-favicon.png'},
+  city:'Toledo',
   tags:['Toledo/PR','Musculação','Atendimento próximo'],
   materials:[
     {icon:'⌁',title:'CONTROLE COMERCIAL',description:'Leads, matrículas e valores recebidos.',url:'controle.html'},
