@@ -1,4 +1,4 @@
-# Hub de clientes 10Complicado
+# Hub de clientes Agência Dama - Assessoria de Marketing
 
 Base estática para hubs individuais de clientes, pronta para publicação no Netlify.
 
