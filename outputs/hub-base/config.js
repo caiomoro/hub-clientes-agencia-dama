@@ -1,6 +1,6 @@
 // Duplique esta pasta para um novo cliente e altere apenas este arquivo.
 window.CLIENT_CONFIG={
-  brand:{name:'RA.Gym',eyebrow:'RESIDÊNCIA ATLÉTICA',tagline:'Marketing e vendas em um só lugar.',logo:'assets/dama-favicon.png'},
+  brand:{name:'RA.Gym',eyebrow:'RESIDÊNCIA ATLÉTICA',tagline:'Marketing e vendas em um só lugar.',logo:'assets/dama-logo-transparent.png'},
   city:'Toledo',
   tags:['Toledo/PR','Musculação','Atendimento próximo'],
   materials:[
