@@ -5,9 +5,9 @@ window.CLIENT_CONFIG={
   materials:[
     {icon:'⌁',title:'CONTROLE COMERCIAL',description:'Leads, matrículas e valores recebidos.',url:'controle.html'},
     {icon:'♧',title:'DENOTE · ACADEMIA',description:'Coleção de referências para anúncios.',url:'https://denote.net/share/b/uZJ1P4#%20%E3%80%8CACADEMIA%E3%80%8D'},
-    {icon:'▣',title:'ROTEIROS DE ANÚNCIO',description:'10 roteiros A.I.A. para atrair novos alunos.',url:'https://10complicado-cliente-ra-academia-marketing-education.netlify.app/roteiros/'},
-    {icon:'▱',title:'TÉCNICA DE VENDA',description:'Do WhatsApp à visita e à matrícula.',url:'https://10complicado-cliente-ra-academia-marketing-education.netlify.app/tecnica-de-venda/'},
-    {icon:'▦',title:'LINHA EDITORIAL · OUTUBRO',description:'31 pautas com Feed/Reels e Stories.',url:'https://10complicado-cliente-ra-academia-marketing-education.netlify.app/linha-editorial/'},
+    {icon:'▣',title:'ROTEIROS DE ANÚNCIO',description:'10 roteiros A.I.A. para atrair novos alunos.',url:'roteiros.html'},
+    {icon:'▱',title:'TÉCNICA DE VENDA',description:'Do WhatsApp à visita e à matrícula.',url:'tecnica-venda.html'},
+    {icon:'▦',title:'LINHA EDITORIAL · OUTUBRO',description:'31 pautas com Feed/Reels e Stories.',url:'linha-editorial.html'},
     {icon:'⌗',title:'DIAGNÓSTICO · RA.GYM',description:'Diagnóstico de maturidade digital.',url:'https://docs.google.com/spreadsheets/d/1HXV4rgqacgk058YV4f8lh-JigxRy2L0Hcx13yjb6dZI/edit?usp=sharing'},
     {icon:'◌',title:'GRAVAÇÃO DO DIAGNÓSTICO',description:'Disponível após a reunião. Em breve',disabled:true},
     {icon:'▤',title:'PASTA DE VÍDEOS · DRIVE',description:'Vídeos e fotos para as campanhas.',url:'https://drive.google.com/'},
