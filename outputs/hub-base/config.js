@@ -2,7 +2,9 @@
 window.CLIENT_CONFIG={
   brand:{name:'RA.Gym',eyebrow:'RESIDÊNCIA ATLÉTICA',tagline:'Marketing e vendas em um só lugar.',logo:'assets/dama-logo-transparent.png'},
   city:'Toledo',
-  tags:['Toledo/PR','Musculação','Atendimento próximo'],
+  state:'PR',
+  niche:'Musculação',
+  businessType:'Local',
   materials:[
     {icon:'⌁',title:'CONTROLE COMERCIAL',description:'Leads, matrículas e valores recebidos.',url:'controle.html'},
     {icon:'♧',title:'DENOTE · ACADEMIA',description:'Coleção de referências para anúncios.',url:'https://denote.net/share/b/uZJ1P4#%20%E3%80%8CACADEMIA%E3%80%8D'},

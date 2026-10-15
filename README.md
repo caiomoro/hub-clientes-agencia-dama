@@ -15,7 +15,7 @@ Base estática para hubs individuais de clientes, pronta para publicação no Ne
 1. Duplique `outputs/hub-base`.
 2. Renomeie a cópia com o identificador do cliente.
 3. Edite apenas o `config.js`.
-4. Substitua nome, logo, tags, links, endereço, horários e WhatsApp.
+4. Substitua nome, logo, cidade/UF (`city` e `state`), nicho (`niche`), tipo de negócio (`businessType`), links, endereço, horários e WhatsApp. Esses três campos preenchem automaticamente os botões do topo: cidade/UF, nicho e tipo de negócio.
 5. Crie um novo site Netlify apontando para a pasta publicada.
 
 ## Publicação no Netlify
