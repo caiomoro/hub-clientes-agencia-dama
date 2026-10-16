@@ -33,3 +33,6 @@ h1,h2,h3,h4,h5,h6,.title,.presentation-hero h1,.presentation-grid h2,.before-aft
 .aia-slide .ad-card small{display:block;padding-top:12px;border-top:3px solid #55d6c8;color:#ff853d;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:800}
 .aia-slide .ad-card h3{font-family:'Exo 2',sans-serif;font-size:25px;line-height:1.05;margin:26px 0 18px}.aia-slide .ad-card p{font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;line-height:1.4}.aia-slide .ad-card a{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:800;padding:11px 12px;margin-top:16px;background:#55d6c8}
 @media(max-width:800px){.aia-slide{grid-template-columns:1fr;gap:24px}.aia-slide:after{position:static;width:auto;margin:0 0 8px;display:block;grid-row:2}.aia-slide>div:first-child{display:flex;flex-direction:column}.aia-slide:after{order:2}.aia-slide>div:first-child{order:1}.aia-slide>div:last-child{order:3}.aia-slide .ad-card{margin:15px auto 0}.aia-slide .edit-block div{font-size:13px}}
+
+/* O cabeçalho usa a logo do cliente; o painel de cabeças foi removido. */
+.presentation-hero{grid-template-columns:1fr}.presentation-hero .transfer{display:none}.client-badge{width:64px;height:44px;padding:3px;background:transparent;border:0;display:grid;place-items:center}.client-badge img{max-width:100%;max-height:100%;object-fit:contain;border-radius:4px}
