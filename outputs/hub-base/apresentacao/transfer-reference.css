@@ -1,11 +1,13 @@
 .transfer{background:#11161c;background-image:linear-gradient(90deg,#ffffff08 1px,transparent 1px),linear-gradient(0deg,#ffffff08 1px,transparent 1px);background-size:44px 44px;min-height:470px;padding:28px 22px 22px}
-.heads{height:370px;padding:20px 34px;overflow:visible}
-.head{width:205px;height:260px;font-size:0;box-shadow:none;background:transparent!important;position:relative}
+.heads{height:370px;padding:28px 26px 18px;overflow:visible;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:12px}
+.head{width:210px;height:205px;font-size:0;box-shadow:none;background:transparent!important;position:relative;justify-self:center}
 /* Silhuetas de perfil: o azul olha para a esquerda e o laranja para a direita. */
-.head:before{content:'';position:absolute;inset:12px 18px 0;background:#48c5fa;border-radius:52% 46% 48% 42%;clip-path:polygon(33% 0,63% 4%,78% 18%,82% 39%,76% 55%,80% 70%,68% 78%,65% 100%,28% 100%,28% 88%,15% 85%,18% 73%,5% 66%,13% 57%,15% 38%,20% 16%)}
+.head:before{content:'';position:absolute;inset:8px 12px 0;background:#48c5fa;border-radius:52% 46% 48% 42%;clip-path:polygon(28% 0,62% 3%,78% 15%,82% 35%,78% 55%,83% 67%,72% 77%,68% 100%,28% 100%,27% 88%,14% 84%,17% 72%,3% 65%,12% 55%,14% 36%,18% 16%)}
 .head.orange:before{background:#ff853d;transform:scaleX(-1)}
-.head:after{content:'';position:absolute;width:58px;height:7px;top:129px;left:48px;background:#050506;border-radius:8px;z-index:2}
-.head.orange:after{left:auto;right:48px}
+.head .face-mark{display:block;position:absolute;width:92px;height:92px;left:58px;top:25px;border-radius:50%;background:#fff;z-index:1}
+.head.orange .face-mark{left:60px}
+.head:after{content:'';position:absolute;width:58px;height:7px;top:111px;left:76px;background:#050506;border-radius:8px;z-index:2}
+.head.orange:after{left:auto;right:76px}
 .brain{width:72px;height:72px;border:6px solid #38b4ad;background:#b7f2e8;color:#11636a;font-size:32px;border-radius:50%;box-shadow:0 0 0 9px #111b,0 0 0 14px #2c7e7b;transition:none;z-index:5}
 .brain:after{width:250px;height:6px;background:#61d6e2}.head label{bottom:-50px;padding:14px 24px;line-height:1.35;text-align:center;min-width:155px;background:#080a0c;border-color:#343434}.head.orange label{border-color:#85501f}
-@media(max-width:800px){.transfer{min-height:390px}.heads{height:300px;padding:14px}.head{width:135px;height:190px}.head:after{top:96px;left:32px;width:40px}.head.orange:after{left:auto;right:32px}.brain{width:58px;height:58px;font-size:25px}.brain:after{width:150px}.head label{bottom:-38px;min-width:105px;padding:10px 12px}}
+@media(max-width:800px){.transfer{min-height:390px}.heads{height:300px;padding:14px 8px;gap:0}.head{width:135px;height:150px}.head .face-mark{width:66px;height:66px;left:38px;top:18px}.head.orange .face-mark{left:32px}.head:after{top:80px;left:48px;width:40px}.head.orange:after{left:auto;right:48px}.brain{width:58px;height:58px;font-size:25px}.brain:after{width:150px}.head label{bottom:-38px;min-width:105px;padding:10px 12px}}
