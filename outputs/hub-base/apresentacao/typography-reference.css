@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+html,body{font-family:'Montserrat',sans-serif;font-size:14px}
+h1,h2,h3,h4,h5,h6,.title,.presentation-hero h1,.presentation-grid h2,.before-after h2,.last-slide h2,.follow-title h2,.section-title,.card b,.problem-cards b,.last-cards b,.problem-cards h3,.last-cards h3,.ad-card h3,.chat-flow h3,.follow-cards h3,.columns h3,.brand,.top-title{font-family:'Exo 2',sans-serif}
+.presentation-hero h1{font-weight:800;font-size:clamp(46px,5.4vw,82px);line-height:.9;letter-spacing:-.035em}
+.presentation-grid h2,.before-after h2,.last-slide h2{font-weight:800;font-size:clamp(34px,4vw,62px);line-height:.94;letter-spacing:-.025em}
+.eyebrow{font-family:'Montserrat',sans-serif;font-weight:800;font-size:12px;letter-spacing:.02em}
+.transfer>small{font-family:'Montserrat',sans-serif;font-size:10px;line-height:1.5;letter-spacing:.01em}
+.mini-goals b{font-family:'Exo 2',sans-serif;font-weight:800;font-size:18px}
+.mini-goals small{font-family:'Montserrat',sans-serif;font-weight:700;font-size:9px;line-height:1.25}
+.head label{font-family:'Montserrat',sans-serif;font-weight:800;font-size:10px}
+.problem-cards h3,.last-cards h3{font-size:18px;font-weight:800}
+.problem-cards p,.last-cards p,.presentation-grid>div>p,.before-after>p,.last-slide p,.ad-card p,.bubble,.follow-cards p,.columns small,.edit-block div{font-family:'Montserrat',sans-serif;font-size:12px;line-height:1.45}
+.ad-card h3{font-size:25px;font-weight:800}
+.chat-flow h3{font-size:20px;font-weight:800}
+.follow-cards h3{font-size:16px;font-weight:800}
+.columns h3{font-size:22px;font-weight:800}
+@media(max-width:800px){.presentation-hero{grid-template-columns:1fr;gap:25px}.presentation-hero h1{font-size:clamp(48px,12vw,72px)}}
