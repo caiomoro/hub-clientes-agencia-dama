@@ -1,0 +1,9 @@
+.transfer{background:#11161c;background-image:linear-gradient(90deg,#ffffff08 1px,transparent 1px),linear-gradient(0deg,#ffffff08 1px,transparent 1px);background-size:44px 44px;min-height:360px;padding:24px 18px 18px}
+.heads{height:290px;padding:18px 28px;overflow:visible}
+.head{width:150px;height:190px;border-radius:54% 46% 48% 44%;font-size:0;box-shadow:none}
+.head.blue{background:#48c5fa}.head.orange{background:#ff853d}
+.head:before{content:'';position:absolute;width:86px;height:86px;top:20px;left:32px;border-radius:50%;background:#fff;box-shadow:0 8px 18px #0002}
+.head:after{content:'';position:absolute;width:48px;height:6px;top:92px;left:51px;background:#050506;border-radius:8px}
+.brain{width:55px;height:55px;border:5px solid #38b4ad;background:#b7f2e8;color:#11636a;font-size:25px;border-radius:50%;box-shadow:0 0 0 8px #111b,0 0 0 12px #2c7e7b;transition:none}
+.brain:after{width:190px;height:5px;background:#61d6e2}.head label{bottom:-44px;padding:12px 20px;line-height:1.35;text-align:center;min-width:125px;background:#080a0c;border-color:#343434}.head.orange label{border-color:#85501f}
+@media(max-width:800px){.head{width:115px;height:140px}.head:before{width:68px;height:68px;left:23px}.head:after{left:34px;top:76px}.brain:after{width:110px}}
