@@ -10,4 +10,6 @@
 .head.orange:after{left:auto;right:76px}
 .brain{width:72px;height:72px;border:6px solid #38b4ad;background:#b7f2e8;color:#11636a;font-size:32px;border-radius:50%;box-shadow:0 0 0 9px #111b,0 0 0 14px #2c7e7b;transition:none;z-index:5}
 .brain:after{width:250px;height:6px;background:#61d6e2}.head label{bottom:-50px;padding:14px 24px;line-height:1.35;text-align:center;min-width:155px;background:#080a0c;border-color:#343434}.head.orange label{border-color:#85501f}
-@media(max-width:800px){.transfer{min-height:390px}.heads{height:300px;padding:14px 8px;gap:0}.head{width:135px;height:150px}.head .face-mark{width:66px;height:66px;left:38px;top:18px}.head.orange .face-mark{left:32px}.head:after{top:80px;left:48px;width:40px}.head.orange:after{left:auto;right:48px}.brain{width:58px;height:58px;font-size:25px}.brain:after{width:150px}.head label{bottom:-38px;min-width:105px;padding:10px 12px}}
+@media(max-width:800px){.presentation-hero{grid-template-columns:1fr;gap:25px}.transfer{min-height:390px}.heads{height:300px;padding:14px 8px;gap:0}.head{width:135px;height:150px}.head .face-mark{width:66px;height:66px;left:38px;top:18px}.head.orange .face-mark{left:32px}.head:after{top:80px;left:48px;width:40px}.head.orange:after{left:auto;right:48px}.brain{width:58px;height:58px;font-size:25px}.brain:after{width:150px}.head label{bottom:-38px;min-width:105px;padding:10px 12px}}
+.presentation-hero{grid-template-columns:minmax(0,1fr) minmax(560px,1.15fr);gap:5vw}
+.presentation-hero>div{min-width:0}.transfer{width:100%;box-sizing:border-box}
