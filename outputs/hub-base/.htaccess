@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^gurismart/(controle|roteiros|tecnica-venda|linha-editorial)/?$ /gurismart/$1.html [L]
