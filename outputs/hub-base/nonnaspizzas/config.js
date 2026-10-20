@@ -1,15 +1,13 @@
 window.CLIENT_CONFIG={
-  brand:{name:'Nonna Pizzas',eyebrow:'PIZZAS ARTESANAIS · FORNO A LENHA',tagline:'A verdadeira experiência em pizzas artesanais.',logo:'assets/dama-favicon.png'},
+  brand:{name:'Nonna Pizzas',eyebrow:'PIZZAS ARTESANAIS · FORNO A LENHA',tagline:'A verdadeira experiência em pizzas artesanais.',logo:'assets/nonna-pizzas-logo.jpg'},
   city:'Arroio Grande e Jaguarão',state:'RS',niche:'Pizzas artesanais e delivery',businessType:'Local + Delivery',
   tags:['Arroio Grande/RS','Jaguarão/RS','Pizzas artesanais','Delivery'],
   materials:[
-    {icon:'⌁',title:'CONTROLE COMERCIAL',description:'Pedidos, vendas e faturamento das duas unidades.',url:'controle/'},
     {icon:'▣',title:'ROTEIROS DE ANÚNCIO',description:'Roteiros para delivery, salão, forno a lenha e ofertas.',url:'roteiros/'},
-    {icon:'▱',title:'TÉCNICA DE VENDA',description:'Do primeiro contato ao pedido confirmado.',url:'tecnica-de-venda/'},
     {icon:'▦',title:'LINHA EDITORIAL',description:'Pautas para Arroio Grande e Jaguarão.',url:'linha-editorial/'},
-    {icon:'⌗',title:'DIAGNÓSTICO · {{CLIENT_NAME}}',description:'Disponível em breve.',disabled:true},
+    {icon:'⌗',title:'DIAGNÓSTICO · {{CLIENT_NAME}}',description:'Diagnóstico de maturidade digital da Nonna Pizzas.',url:'https://docs.google.com/spreadsheets/d/16vE-OLLhcweuhHwsRqj6QSxqzIC-4DgweyhuMCW28sI/edit?usp=drivesdk'},
     {icon:'◌',title:'GRAVAÇÃO DO DIAGNÓSTICO',description:'Disponível após a reunião. Em breve',disabled:true},
-    {icon:'▤',title:'PASTA DE VÍDEOS · DRIVE',description:'Fotos e vídeos das duas unidades.',url:'https://drive.google.com/drive/folders/1Xdm3nQ_U13vNTmugWsIALjj1qEceTTCE?usp=drive_link'},
+    {icon:'▤',title:'PASTA DE VÍDEOS · DRIVE',description:'Fotos e vídeos das duas unidades.',url:'https://drive.google.com/drive/folders/19G7O0zgBucvS5PeJXTQcaSpPv4xhD7WC?usp=drive_link'},
     {icon:'▰',title:'APRESENTAÇÃO INICIAL',description:'Posicionamento, operação e plano de crescimento.',url:'/nonnaspizzas/apresentacao/'}
   ],
   units:[
