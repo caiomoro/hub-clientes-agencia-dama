@@ -4,3 +4,7 @@ RewriteRule ^gurismart/(controle|roteiros|tecnica-venda|linha-editorial)/styles\
 RewriteRule ^gurismart/(controle|roteiros|tecnica-venda|linha-editorial)/assets/(.*)$ /gurismart/assets/$2 [L]
 RewriteRule ^gurismart/(controle|roteiros|tecnica-venda|linha-editorial)/config\.js$ /gurismart/config.js [L]
 RewriteRule ^gurismart/(controle|roteiros|tecnica-venda|linha-editorial)/?$ /gurismart/$1.html [L]
+RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/styles\.css$ /styles.css [L]
+RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/assets/(.*)$ /nonnaspizzas/assets/$2 [L]
+RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/config\.js$ /nonnaspizzas/config.js [L]
+RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/?$ /nonnaspizzas/$1.html [L]
