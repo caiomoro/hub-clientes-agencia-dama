@@ -8,3 +8,8 @@ RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/styl
 RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/assets/(.*)$ /nonnaspizzas/assets/$2 [L]
 RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/config\.js$ /nonnaspizzas/config.js [L]
 RewriteRule ^nonnaspizzas/(controle|roteiros|tecnica-venda|linha-editorial)/?$ /nonnaspizzas/$1.html [L]
+
+RewriteRule ^pizza-do-engenheiro/(controle|roteiros|tecnica-venda|linha-editorial)/styles\.css$ /pizza-do-engenheiro/styles.css [L]
+RewriteRule ^pizza-do-engenheiro/(controle|roteiros|tecnica-venda|linha-editorial)/assets/(.*)$ /pizza-do-engenheiro/assets/$2 [L]
+RewriteRule ^pizza-do-engenheiro/(controle|roteiros|tecnica-venda|linha-editorial)/config\.js$ /pizza-do-engenheiro/config.js [L]
+RewriteRule ^pizza-do-engenheiro/(controle|roteiros|tecnica-venda|linha-editorial)/?$ /pizza-do-engenheiro/$1.html [L]
