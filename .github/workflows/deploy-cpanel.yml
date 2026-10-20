@@ -1,0 +1,24 @@
+name: Publicar no cPanel
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Atualizar arquivos no cPanel via SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.CPANEL_HOST }}
+          username: ${{ secrets.CPANEL_USER }}
+          key: ${{ secrets.CPANEL_SSH_KEY }}
+          port: ${{ secrets.CPANEL_PORT || 22 }}
+          script_stop: true
+          script: |
+            set -e
+            cd /home1/caiom036/repos/hub-clientes-agencia-dama
+            /usr/local/cpanel/3rdparty/bin/git pull --ff-only origin main
+            /bin/cp -R outputs/hub-base/. /home1/caiom036/public_html/
