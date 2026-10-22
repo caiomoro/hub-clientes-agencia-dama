@@ -1,3 +1,4 @@
+// deploy-check: 2026-10-22-automatico
 window.CLIENT_CONFIG={
   brand:{name:'Nonna Pizzas',eyebrow:'PIZZAS ARTESANAIS · FORNO A LENHA',tagline:'A verdadeira experiência em pizzas artesanais.',logo:'assets/nonna-pizzas-logo.jpg'},
   city:'Arroio Grande e Jaguarão',state:'RS',niche:'Pizzas artesanais e delivery',businessType:'Local + Delivery',
